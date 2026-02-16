@@ -1,16 +1,13 @@
 // Data for portfolio
 import {
   AzureIcon,
-  ExpressjsIcon,
   JavaScriptIcon,
   LangchainIcon,
-  NestjsIcon,
   NextjsIcon,
   NodejsIcon,
   PythonIcon,
   ReactIcon,
   ScikitLearnIcon,
-  SocketIcon,
   TailwindCSS,
   TensorflowIcon,
   TypescriptIcon,
