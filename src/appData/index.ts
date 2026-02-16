@@ -1,13 +1,18 @@
 // Data for portfolio
 import {
+  AzureIcon,
   ExpressjsIcon,
   JavaScriptIcon,
+  LangchainIcon,
   NestjsIcon,
   NextjsIcon,
   NodejsIcon,
+  PythonIcon,
   ReactIcon,
+  ScikitLearnIcon,
   SocketIcon,
   TailwindCSS,
+  TensorflowIcon,
   TypescriptIcon,
 } from '../utils/icons'
 
@@ -15,53 +20,47 @@ import {
 export const projects = [
   {
     priority: 1,
-    title: 'Project Alpha',
+    title: 'Sentiment Analysis Engine',
     shortDescription:
-      'A groundbreaking project that revolutionizes the way we approach technology. Built with cutting-edge tools for maximum efficiency, it sets new industry standards.',
+      'A deep learning-based sentiment analysis system using BERT and TensorFlow. Analyzes customer reviews and social media data to extract insights and classify sentiments with 95% accuracy.',
     cover:
-      'https://images.unsplash.com/photo-1585282263861-f55e341878f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    livePreview: 'https://example.com/alpha',
-    type: 'Client Work 🙍‍♂️',
-    siteAge: '1 month old',
+      'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
+    livePreview: 'https://google.com',
+    type: 'Deep Learning 🧠',
+    siteAge: '3 months old',
   },
   {
     priority: 2,
-    title: 'Project Beta',
+    title: 'AI-Powered Chatbot',
     shortDescription:
-      'Project Beta is a static technical blog site built with GatsbyJS. I share tips on topics like building reusable components in React, explaining JavaScript methods and concepts, Node.js scripts, and more.',
+      'A conversational AI chatbot built with LangChain and GPT-4. Features context-aware responses, multi-turn conversations, and integration with knowledge bases for enterprise customer support.',
     cover:
-      'https://plus.unsplash.com/premium_photo-1663040328859-48bddaa9dfeb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    livePreview: 'https://example.com/beta',
-    visitors: '8K Visitors',
-    earned: '$400 Earned',
+      'https://images.unsplash.com/photo-1684487747720-1ba29cda82f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
+    livePreview: 'https://google.com',
+    githubLink: 'https://google.com',
+    type: 'Generative AI 🤖',
   },
   {
     priority: 3,
-    title: 'Project Epsilon',
+    title: 'Image Classification System',
     shortDescription:
-      'A collection of engaging coding challenges designed to help developers improve their ReactJS skills by writing functional business logic. Your task is to make it functional by writing business logic, to improve your frontend skills',
+      'A computer vision project using CNNs and transfer learning with ResNet50. Classifies medical images for disease detection with real-time inference capabilities deployed on Azure.',
     cover:
-      'https://plus.unsplash.com/premium_photo-1661700152890-931fb04588e6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-
-    type: 'Free 🔥',
-    livePreview: 'https://example.com/epsilon',
-    githubLink: 'https://github.com/example/ReactJS-Coding-Challenges',
-    githubStars: '40 Stars',
-    numberOfSales: '138 Sales',
+      'https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
+    type: 'Machine Learning 📊',
+    livePreview: 'https://google.com',
+    githubLink: 'https://google.com',
   },
   {
     priority: 4,
-    title: 'Ejucationzz',
+    title: 'Predictive Analytics Dashboard',
     shortDescription:
-      'Ejucationzz is a directory site I created for myself using Next.js. On Ejucationzz, you can find free and paid online and offline courses available in Pakistan. 14 academies and 12 main categories, each with subcategories, have been listed. Ejucationzz is a directory site I created for myself using Next.js. On Ejucationzz, you can find free and paid online and offline courses available in Pakistan. 14 academies and 12 main categories, each with subcategories, have been listed.',
+      'An end-to-end ML pipeline using Scikit-learn for predictive analytics. Features data preprocessing, model training, and interactive visualizations for business intelligence and forecasting.',
     cover:
-      'https://images.unsplash.com/photo-1527334919515-b8dee906a34b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    type: 'New 🔥',
-    livePreview: 'https://example.com/Ejucationzz',
-    siteAge: '4 months old',
-    visitors: '100 Visitors',
-    githubLink: '',
-    earned: '',
+      'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
+    type: 'Machine Learning 📈',
+    livePreview: 'https://google.com',
+    githubLink: 'https://google.com',
   },
 ]
 
@@ -102,36 +101,24 @@ export const serviceData = [
 // Skill List
 export const skillList = [
   {
-    name: 'JavaScript',
-    icon: JavaScriptIcon,
+    name: 'Python',
+    icon: PythonIcon,
   },
   {
-    name: 'TypeScript',
-    icon: TypescriptIcon,
+    name: 'Scikit-learn',
+    icon: ScikitLearnIcon,
   },
   {
-    name: 'React.js',
-    icon: ReactIcon,
+    name: 'TensorFlow',
+    icon: TensorflowIcon,
   },
   {
-    name: 'Next.js',
-    icon: NextjsIcon,
+    name: 'LangChain',
+    icon: LangchainIcon,
   },
   {
-    name: 'Node.js',
-    icon: NodejsIcon,
-  },
-  {
-    name: 'Express.js',
-    icon: ExpressjsIcon,
-  },
-  {
-    name: 'Nest.js',
-    icon: NestjsIcon,
-  },
-  {
-    name: 'Socket.io',
-    icon: SocketIcon,
+    name: 'Azure',
+    icon: AzureIcon,
   },
 ]
 

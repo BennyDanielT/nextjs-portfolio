@@ -1,9 +1,9 @@
 {
   "priority": 2,
-  "title": "Codevertiser",
-  "shortDescription": "A programming related article site to share my learnings",
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656970810/Codevertiser_xlxdje.png",
-  "livePreview": "https://example.com/beta",
-  "visitors": "8K Visitors",
-  "earned": "$400 Earned"
+  "title": "AI-Powered Chatbot",
+  "shortDescription": "A conversational AI chatbot built with LangChain and GPT-4. Features context-aware responses, multi-turn conversations, and integration with knowledge bases for enterprise customer support.",
+  "cover": "https://images.unsplash.com/photo-1684487747720-1ba29cda82f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
+  "livePreview": "https://google.com",
+  "githubLink": "https://google.com",
+  "type": "Generative AI 🤖"
 }

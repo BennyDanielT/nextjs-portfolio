@@ -1,16 +1,21 @@
 import { FC, SVGProps } from 'react'
 
+import AzureIcon from '../assets/icons/Azure.svg'
 import Earning from '../assets/icons/earning.svg'
 import ExpressjsIcon from '../assets/icons/express.svg'
 import JavaScriptIcon from '../assets/icons/javascript.svg'
+import LangchainIcon from '../assets/icons/langchain.svg'
 import Likes from '../assets/icons/likes.svg'
 import NestjsIcon from '../assets/icons/nest.svg'
 import NextjsIcon from '../assets/icons/nextjs.svg'
 import NodejsIcon from '../assets/icons/nodejs.svg'
+import PythonIcon from '../assets/icons/python.svg'
 import ReactIcon from '../assets/icons/react.svg'
+import ScikitLearnIcon from '../assets/icons/scikit-learn.png'
 import SocketIcon from '../assets/icons/socket.svg'
 import Star from '../assets/icons/star.svg'
 import TailwindCSS from '../assets/icons/tailwind-css.svg'
+import TensorflowIcon from '../assets/icons/tensorflow.svg'
 import Timer from '../assets/icons/timer.svg'
 import TypescriptIcon from '../assets/icons/typescript.svg'
 
@@ -320,6 +325,7 @@ export {
   GithubIcon,
   Instagram,
   JavaScriptIcon,
+  LangchainIcon,
   Likes,
   LinkedIn,
   MsgIcon,
@@ -328,12 +334,16 @@ export {
   NodejsIcon,
   PhoneIcon,
   PreviewIcon,
+  PythonIcon,
   ReactIcon,
+  ScikitLearnIcon,
   SocketIcon,
   Star,
   StarIcon,
   TailwindCSS,
+  TensorflowIcon,
   Timer,
   TypescriptIcon,
+  AzureIcon,
   X,
 }

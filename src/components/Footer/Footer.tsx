@@ -1,4 +1,4 @@
-import { footerLinks, languages } from '@/appData'
+import { footerLinks } from '@/appData'
 import { socials } from '@/appData/personal'
 import Logo from '../Navbar/Logo'
 
@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
           <h5 className="mb-8 flex items-center gap-2">
             <Logo width={30} height={24} />
-            <span className="text-neutral text-lg font-medium">Logoipsum</span>
+            <span className="text-neutral text-lg font-medium">Abitha Jasmine JA</span>
           </h5>
           <p className="text-tertiary-content">
             The first free end-to-end analytics service for the site, designed to work with
@@ -58,39 +58,23 @@ const Footer = () => {
             <div className="flex flex-col">
               <h5 className="text-neutral mb-4 text-lg font-medium">Contact Us</h5>
               <a
-                href="mailto:johndoe@gmail.com"
+                href="mailto:abiitha.ja@gmail.com"
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
-                johndoe@gmail.com
-              </a>
-              <a
-                href="tel:+92 3123456789"
-                className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
-                +92 3123456789
+                abiitha.ja@gmail.com
               </a>
             </div>
             <div>
               <div>
                 <h5 className="text-neutral mb-4 text-lg font-medium">Location</h5>
                 <address className="text-tertiary-content flex flex-col text-sm font-light">
-                  <span>123456, Pakistan</span>
-                  <span>Karachi 22/5/8, Office 4</span>
+                  <span>Chennai, Tamil Nadu</span>
+                  <span>601 113, India</span>
                 </address>
               </div>
             </div>
           </div>
 
-          <div className="md:self-end">
-            <p className="text-neutral mb-8 text-sm md:text-right">Languages</p>
-            <div className="flex gap-8 md:gap-4 lg:gap-8">
-              {languages.map((language, idx) => (
-                <span
-                  key={language}
-                  className={idx === 0 ? 'text-neutral' : 'text-tertiary-content'}>
-                  {language}
-                </span>
-              ))}
-            </div>
-          </div>
+
         </div>
       </div>
 
