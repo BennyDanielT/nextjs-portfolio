@@ -13,20 +13,23 @@ const title = 'Abitha Jasmine JA | ML, Deep Learning & Generative AI'
 const description =
   "Machine Learning and Generative AI enthusiast based in Chennai, India. Skilled in Python, TensorFlow, LangChain, and Azure. Let's build intelligent solutions together!"
 
-const url = process.env.NEXT_PUBLIC_SITE_URL
+// Ensure URL has protocol
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.startsWith('http')
+  ? process.env.NEXT_PUBLIC_SITE_URL
+  : `https://${process.env.NEXT_PUBLIC_SITE_URL}`
 
 export const metadata: Metadata = {
   title,
   description,
   category: 'technology',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!),
+  metadataBase: new URL(siteUrl),
   alternates: {
-    canonical: url,
+    canonical: siteUrl,
   },
   openGraph: {
     title,
     description,
-    url,
+    url: siteUrl,
     siteName: 'Abitha Jasmine JA Portfolio',
     type: 'website',
   },
